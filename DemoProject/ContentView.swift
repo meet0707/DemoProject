@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List(1..<4) { i in
-            Text(String(i))
-                
-        }
+        Text("This is main branch text")
     }
 
 }
