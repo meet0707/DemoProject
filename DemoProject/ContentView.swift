@@ -9,11 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Project has been updated!")
+        List(1..<4) { i in
+            Text(String(i))
+                
         }
-        .padding()
     }
+
 }
 
 #Preview {
