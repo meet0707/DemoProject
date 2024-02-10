@@ -9,10 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Side Branch")
-            Text("Secondary Branch")
-        }
+        Text("Hello World")
     }
 
 }
