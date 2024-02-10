@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("This is main branch text")
+        Text("This is side branch")
     }
 
 }
